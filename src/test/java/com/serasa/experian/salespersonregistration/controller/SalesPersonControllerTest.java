@@ -87,7 +87,7 @@ class SalesPersonControllerTest {
         ResponseEntity<SalesPersonEntity> result = salesPersonController.updateSalesTerritory(salesTerritoryDTO);
 
         verify(salesPersonService).updateSalesTerritory(salesTerritoryDTO);
-        assertEquals(HttpStatus.CREATED, result.getStatusCode());
+        assertEquals(HttpStatus.OK, result.getStatusCode());
         assertEquals(salesPersonEntity, result.getBody());
     }
 
