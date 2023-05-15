@@ -1,0 +1,44 @@
+# Ignorar diretórios e arquivos específicos
+target/
+build/
+out/
+
+# Ignorar arquivos de configuração do IntelliJ IDEA
+.idea/
+
+# Ignorar arquivos gerados pelo Maven
+*.iml
+*.ipr
+*.iws
+.idea/
+target/
+out/
+build/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de compilação Java
+*.class
+
+# Ignorar arquivos de dependências do Maven
+lib/
+
+# Ignorar arquivos de configuração local
+application.properties
+application-dev.properties
+application-prod.properties
+
+# Ignorar arquivos temporários
+*.tmp
+
+# Ignorar arquivos de cache
+.cache/
+
+# Ignorar arquivos gerados pelo IDE Eclipse
+.classpath
+.project
+.settings/
+
+# Ignorar arquivos de backup
+*~
