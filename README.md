@@ -59,7 +59,7 @@ Content-Type: application/json
 "estados": ["PB", "CE", "PE", "SP"]
 }
 
-RESPONSE: HTTP 201 (Created)
+RESPONSE: HTTP 200 (OK)
 ```
 ### Listando vendedores cadastrados
 ```
@@ -107,12 +107,11 @@ RESPONSE: HTTP 200 (OK)
 ```
 ```
 datasource:
-    spring.datasource.url=jdbc:h2:mem:demo
-    spring.datasource.driverClassName=org.h2.Driver
-    spring.datasource.usermane=sa
-    spring.datasource.password=password
-    spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-    
-    spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:demo;DB_CLOSE_ON_EXIT=FALSE
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=user
+spring.datasource.password=password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
+spring.h2.console.enabled=true
 
