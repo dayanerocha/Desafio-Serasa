@@ -24,11 +24,6 @@ build/
 # Ignorar arquivos de dependências do Maven
 lib/
 
-# Ignorar arquivos de configuração local
-application.properties
-application-dev.properties
-application-prod.properties
-
 # Ignorar arquivos temporários
 *.tmp
 
