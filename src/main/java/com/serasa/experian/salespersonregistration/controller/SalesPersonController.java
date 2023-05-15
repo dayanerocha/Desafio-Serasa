@@ -58,6 +58,6 @@ public class SalesPersonController {
 
         SalesPersonEntity result = salesPersonService.updateSalesTerritory(salesTerritoryDTO);
 
-        return ResponseEntity.status(HttpStatus.CREATED).body(result);
+        return ResponseEntity.ok().body(result);
     }
 }
